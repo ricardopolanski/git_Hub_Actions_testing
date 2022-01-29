@@ -57,7 +57,7 @@ jobs:
         npx cypress version --component node
     # Starts local server, then runs Cypress tests and records results on the dashboard
     - name: Cypress tests
-      run: npm run cypress-run
+      run: npx cypress run --record --key 86fa5c1f-77d4-4dc8-a815-3f3766fed1fe
       env:
         # place your secret record key at
         # https://github.com/cypress-io/cypress-example-kitchensink/settings/secrets
