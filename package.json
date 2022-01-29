@@ -6,5 +6,9 @@
 
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/integration/steps_definitions"
+  },
+
+  "scripts": {
+    "cy.dash": "npx cypress run --record --key 86fa5c1f-77d4-4dc8-a815-3f3766fed1fe"
   }
 }
